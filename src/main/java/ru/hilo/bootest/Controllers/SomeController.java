@@ -14,7 +14,12 @@ public class SomeController {
     private final ContactFlsServise contactFlsServise;
 
     @GetMapping("/hello/{id}")
-    public ContactFl hello(@PathVariable int id) {
+    public ContactFl hello(@PathVariable Integer id) {
         return contactFlsServise.getContactFl(id);
+    }
+
+    @GetMapping("/hello")
+    public String hellos() {
+        return "hello beach";
     }
 }

@@ -11,7 +11,9 @@ public class ContactFlsServiceImpl implements ContactFlsServise {
 
     private ContactFlsRepository contactFlsRepository;
 
-    public ContactFl getContactFl(int id) {
+    @Override
+    public ContactFl getContactFl(Integer id) {
+//        return new ContactFl();
         return contactFlsRepository.findById(id).get();
     }
 }
