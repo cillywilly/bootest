@@ -17,11 +17,11 @@ public class ContactFl {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String  flId;
-    private String  statusFl;
+    private String  fl_id;
+    private String  status_fl;
     private String  type;
-    private String  applicationId;
-    private String  applicationStatus;
-    private String  flAddDate;
+    private String  application_id;
+    private String  application_status;
+    private String  fl_add_date;
     private Boolean lock;
 }

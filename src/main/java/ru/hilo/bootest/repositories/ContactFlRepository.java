@@ -5,7 +5,6 @@ import org.springframework.stereotype.Repository;
 import ru.hilo.bootest.model.ContactFl;
 
 @Repository
-public interface ContactFlsRepository extends CrudRepository<ContactFl, Integer> {
-
+public interface ContactFlRepository extends CrudRepository<ContactFl, Integer> {
 
 }

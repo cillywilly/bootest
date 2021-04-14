@@ -2,6 +2,6 @@ package ru.hilo.bootest.services;
 
 import ru.hilo.bootest.model.ContactFl;
 
-public interface ContactFlsServise {
+public interface ContactFlService {
     ContactFl getContactFl(Integer id);
 }

@@ -12,6 +12,7 @@ public class BootestApplication {
     public static void main(String[] args) {
         SpringApplication.run(BootestApplication.class, args);
     }
+
     @Bean
     public RestTemplate restTemplate() {
         return new RestTemplateBuilder().build();
